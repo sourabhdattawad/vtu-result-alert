@@ -3,7 +3,7 @@ This script alerts you when VTU announces results for your semester. You get SMS
 ## Usage
 Sign Up for [way2sms](http://site21.way2sms.com/content/index.html?)
 ##
-Make changes to script with your way2sms login credentials.
+Make changes to script with your way2sms login credentials, Mobile No and USN.
 ##
 Run the script
 ```
