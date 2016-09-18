@@ -9,3 +9,4 @@ Run the script
 ```
 python vtu_results.py
 ```
+Currently this doesn't work for CBCS(2015 batch) system.
