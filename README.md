@@ -1,5 +1,5 @@
 # vtu-result-alert
-This script alerts you when VTU announces results for your semester. You get SMS just after the results are announced. Saves you from annoying task of checking their website regularly.
+This script alerts you when VTU announces results for your semester. You get SMS just after the results are announced. Saves you from annoying task of checking their website regularly. Works for both regular and revalution results.
 ## Usage
 Sign Up for [way2sms](http://site21.way2sms.com/content/index.html?)
 ##
