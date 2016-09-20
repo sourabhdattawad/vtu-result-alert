@@ -59,12 +59,15 @@ def checkresult():
     
     #use http://results.vtu.ac.in/vitavireval.php **for revaluation results**
     #use http://results.vtu.ac.in **for regular results**
-    browser = Browser()
-    browser.open("http://results.vtu.ac.in/vitavireval.php") 
-    browser.select_form(nr=0)
-    browser['rid'] = 'YOUR-USN'
-    response = browser.submit()
-    content = response.read() 
+    try:
+        browser = Browser()
+        browser.open("http://results.vtu.ac.in/vitavireval.php") 
+        browser.select_form(nr=0)
+        browser['rid'] = 'YOUR-USN'
+        response = browser.submit()
+        content = response.read()
+    except:
+        content = 'Results are not yet available'
     if('Results are not yet available' not in content):
         res_available = True
         sendalert()
